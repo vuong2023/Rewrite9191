@@ -4,7 +4,6 @@
 下载地址：https://t.cn/A60VKj9S
 脚本作者：@ios151
 特别感谢：@chxm1023,@GuDing
-电报频道：https://t.me/chxm1023
 使用声明：本人共享token 请勿随意删除“快看云盘”里面的图纸 否则删库
 使用方法：账号：baby 密码：1
 
