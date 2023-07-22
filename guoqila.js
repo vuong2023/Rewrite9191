@@ -12,7 +12,7 @@
 
 
 [MITM]
-hostname = cad.glodon.com
+hostname = api.guoqi365.com
 
 */
 var responseData = {
