@@ -20,7 +20,7 @@ var responseData = {
     "data": {
       "user_is_pro": true,
       "group_is_pro": true,
-      "membership_type": true,
+      "membership_type": 5,
       "event": {
         "valid": true,
         "id": "636a0b84f70b896dbde88aa6",
