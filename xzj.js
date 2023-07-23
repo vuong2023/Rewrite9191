@@ -1,6 +1,6 @@
 /**
 
-项目功能：小组件盒子 解锁永久VIP
+项目功能：小组件盒子 解锁永久VIP 测试版本1.31.0
 下载地址：https://t.cn/A6oDCwJ6
 Script Origin：@ios151 
 Script author: @chxm1023
