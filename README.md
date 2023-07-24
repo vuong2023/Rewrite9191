@@ -1,4 +1,4 @@
-# Life is an Adventure <img src="[images/your-image.png](https://raw.githubusercontent.com/Yu9191/-/main/nv2.png)" alt="自定义图片" style="width: 300px; border-radius: 50%;">
+# Life is an Adventure <img src="[images/your-image.png]([https://raw.githubusercontent.com/Yu9191/-/main/nv2.png](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201411%2F19%2F20141119235532_jfdKW.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1692833276&t=f3f59fce2ebb2e776d9284e0a0bb26a8))" alt="我的自拍" style="width: 300px; border-radius: 50%;">
 
 
 ## Introduction
