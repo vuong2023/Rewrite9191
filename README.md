@@ -1,5 +1,4 @@
-# Life is an Adventure <img src="[![自定义图片]([images/custom-image.png](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201411%2F19%2F20141119235532_jfdKW.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1692833276&t=f3f59fce2ebb2e776d9284e0a0bb26a8))]([https://www.example.com](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201411%2F19%2F20141119235532_jfdKW.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1692833276&t=f3f59fce2ebb2e776d9284e0a0bb26a8))
-">
+# Life is an Adventure 
 
 
 ## Introduction
