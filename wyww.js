@@ -10,7 +10,7 @@ Disclaimers：Study, not spread
 
 
 [MITM]
-hostname = http://api.revenuecat.com
+hostname = api.revenuecat.com
 
 
 */
