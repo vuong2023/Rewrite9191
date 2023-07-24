@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Yu9191/-/main/nv2.png" alt="https://raw.githubusercontent.com/Yu9191/-/main/nv2.png" width="200" height="200">
+</p>
+
+
 # Life is an Adventure 
 
 
