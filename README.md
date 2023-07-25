@@ -9,16 +9,12 @@
 ## Introduction
 
 Welcome to the exciting world of possibilities, where life is an adventure waiting to unfold! This repository is all about celebrating the joy of living, embracing challenges, and finding inspiration in the little things.
+### Options
 
-## Table of Contents
-
-- [Embrace the Unknown](#embrace-the-unknown)
-- [Explore and Discover](#explore-and-discover)
-- [Chase Your Dreams](#chase-your-dreams)
-- [Celebrate Each Moment](#celebrate-each-moment)
-- [Spread Positivity](#spread-positivity)
-- [Conquer Your Fears](#conquer-your-fears)
-- [Share Love and Kindness](#share-love-and-kindness)
+- [失望](https://m.baidu.com/bh/m/detail/ar_3665433856171636043)
+- [绝望](https://m.baidu.com/bh/m/detail/qr_12095809411437175635)
+- [丧失](https://fengyl.nxu.edu.cn/info/1015/6163.htm)
+- [开心](https://91porny.com/video/category/top-list)
 
 ## Embrace the Unknown
 
@@ -50,11 +46,6 @@ Love is the essence of life. Share it with others, and let kindness be the langu
 
 ---
 
-### Options
 
-- [失望](https://m.baidu.com/bh/m/detail/ar_3665433856171636043)
-- [绝望](https://m.baidu.com/bh/m/detail/qr_12095809411437175635)
-- [丧失](https://fengyl.nxu.edu.cn/info/1015/6163.htm)
-- [开心](https://91porny.com/video/category/top-list)
 
 Remember, life is what you make of it. So, go forth, explore, and make the most of this wonderful adventure called life! :sparkles:
