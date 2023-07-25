@@ -4,7 +4,7 @@ name：夏时国际VPN
 to：https://t.cn/A60vysg2
 me：@ios151 Thank@zhangpeifu
 Ts：Borrowing @zhangpeifu's script
-tp:host为“*” 可能和其他软件冲突 用完记得关
+
 
 [rewrite_local]
 ^https?:\/\/(\w+\.com|198\.18\.76\.\d+)\/addressx5\/* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xiashivpn.js
