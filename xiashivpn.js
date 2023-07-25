@@ -11,7 +11,7 @@ tp:host为“*” 可能和其他软件冲突 用完记得关
 ^https?:\/\/googleads\.g\.doubleclick-cn\.net\/* url reject
 
 [MITM]
-hostname = *,googleads.g.doubleclick-cn.net
+hostname = *
 
 */
 
