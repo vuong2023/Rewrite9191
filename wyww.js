@@ -25,8 +25,8 @@ if (typeof $response === "undefined") {
   if (ios151 && ios151.subscriber) {
     ios151.subscriber.subscriptions = ios151.subscriber.subscriptions || {};
     ios151.subscriber.entitlement = ios151.subscriber.entitlement || {};
-    const app = 'gd';
-    const list = { 'gd': { name: 'magicmode', id: 'magicmode' } };
+    const app = 'love'; // Changed 'gd' to 'love'
+    const list = { 'love': { name: 'magicmode', id: 'magicmode' } }; // Changed 'gd' to 'love'
     const data = {
       "expires_date": "6666-06-06T06:06:06Z",
       "original_purchase_date": "2023-02-23T02:33:33Z",
