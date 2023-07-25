@@ -11,7 +11,7 @@ time：2023.7.26.1.22
 ^https?:\/\/googleads\.g\.doubleclick-cn\.net\/* url reject
 
 [MITM]
-hostname = \w+\.com, 198\.18\.76\.\d+,googleads.g.doubleclick-cn.net
+hostname = googleads.g.doubleclick-cn.net
 
 */
 
