@@ -4,14 +4,14 @@ name：夏时国际VPN
 to：https://t.cn/A60vysg2
 me：@ios151 Thank@zhangpeifu
 Ts：Borrowing @zhangpeifu's script
-time：2023.7.26.1.22
-
+time：2023.7.26.13.34
+warn：因为它的域名每天发生变化所有用了通配符“*”代替 用完记得关闭这个规则
 [rewrite_local]
-^https?:\/\/(\w+\.com|198\.18\.76\.\d+)\/addressx5\/* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xiashivpn.js
+^https?:\/\/.+\/addressx5\/* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xiashivpn.js
 ^https?:\/\/googleads\.g\.doubleclick-cn\.net\/* url reject
 
 [MITM]
-hostname = googleads.g.doubleclick-cn.net
+hostname = *,googleads.g.doubleclick-cn.net
 
 */
 
