@@ -35,7 +35,7 @@ if (typeof $response == "undefined") {
   lovelovebabyforevey.subscriber.entitlements = lovelovebabyforevey.subscriber.entitlements || {};
 
   const data = {
-    "expires_date": "2023-08-27T08:57:58Z",
+    "expires_date": "3021-03-14T08:57:58Z",
     "original_purchase_date": "2023-07-27T08:57:58Z",
     "purchase_date": "2023-07-27T08:57:58Z",
     "ownership_type": "PURCHASED",
@@ -50,6 +50,3 @@ if (typeof $response == "undefined") {
 }
 
 $done(lovebaby);
-
-
-
