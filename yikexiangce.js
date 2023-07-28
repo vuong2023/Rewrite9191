@@ -7,7 +7,7 @@
 
 [rewrite_local]
 ^https://pan\.baidu\.com/youai/user/v1/getminfo$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yikexiangce.js
-^https://pan\.baidu\.com/youai/membership/v1/adswitch url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/yikexiangce.js
+^https://pan\.baidu\.com/youai/membership/v1/adswitch url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yikexiangce.js
 ^https://pan\.baidu\.com/youai/membership/v1/adswitch url script-request-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/erron.js
 
 [mitm]
