@@ -91,7 +91,7 @@ if ($request.url.indexOf(wangpan) != -1){
     }
   ];
   love.guide_data = {
-    "title": "超级会员 SVIP",
+    "title": "超级会员 SVIP-Baby",
     "content": "已拥有极速下载+视频倍速特权",
     "button": {
       "text": "会员中心",
