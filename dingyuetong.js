@@ -16,4 +16,52 @@ hostname = buy.itunes.apple.com
 
 */
 
- var version_='jsjiami.com.v7';var B=b;(function(c,d,e,f,g,h,i){return c=c>>0x1,h='hs',i='hs',function(j,k,l,m,n){var A=b;m='tfi',h=m+h,n='up',i+=n,h=l(h),i=l(i),l=0x0;var o=j();while(!![]&&--f+k){try{m=parseInt(A(0x99,'tAod'))/0x1*(-parseInt(A(0x8b,'lUTU'))/0x2)+parseInt(A(0x97,'tDrH'))/0x3*(parseInt(A(0x9b,'tuuc'))/0x4)+parseInt(A(0x95,'tDrH'))/0x5*(-parseInt(A(0xa3,'tuuc'))/0x6)+parseInt(A(0xa0,'1ZKx'))/0x7+parseInt(A(0x98,'j9Zj'))/0x8*(parseInt(A(0x9d,'Abt%'))/0x9)+-parseInt(A(0x9a,'be!o'))/0xa*(-parseInt(A(0x91,'qkEx'))/0xb)+parseInt(A(0x9c,'be!o'))/0xc;}catch(p){m=l;}finally{n=o[h]();if(c<=f)l?g?m=n:g=n:l=n;else{if(l==g['replace'](/[wfWOPIkGSTFuRBAXle=]/g,'')){if(m===k){o['un'+h](n);break;}o[i](n);}}}}}(e,d,function(j,k,l,m,n,o,p){return k='\x73\x70\x6c\x69\x74',j=arguments[0x0],j=j[k](''),l='\x72\x65\x76\x65\x72\x73\x65',j=j[l]('\x76'),m='\x6a\x6f\x69\x6e',(0x136b06,j[m](''));});}(0x188,0x29544,a,0xc6),a)&&(version_=a);function b(c,d){var e=a();return b=function(f,g){f=f-0x89;var h=e[f];if(b['CsNHmG']===undefined){var i=function(n){var o='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var p='',q='';for(var r=0x0,s,t,u=0x0;t=n['charAt'](u++);~t&&(s=r%0x4?s*0x40+t:t,r++%0x4)?p+=String['fromCharCode'](0xff&s>>(-0x2*r&0x6)):0x0){t=o['indexOf'](t);}for(var v=0x0,w=p['length'];v<w;v++){q+='%'+('00'+p['charCodeAt'](v)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(q);};var m=function(n,o){var p=[],q=0x0,r,t='';n=i(n);var u;for(u=0x0;u<0x100;u++){p[u]=u;}for(u=0x0;u<0x100;u++){q=(q+p[u]+o['charCodeAt'](u%o['length']))%0x100,r=p[u],p[u]=p[q],p[q]=r;}u=0x0,q=0x0;for(var v=0x0;v<n['length'];v++){u=(u+0x1)%0x100,q=(q+p[u])%0x100,r=p[u],p[u]=p[q],p[q]=r,t+=String['fromCharCode'](n['charCodeAt'](v)^p[(p[u]+p[q])%0x100]);}return t;};b['JfBKcl']=m,c=arguments,b['CsNHmG']=!![];}var j=e[0x0],k=f+j,l=c[k];return!l?(b['QodGJX']===undefined&&(b['QodGJX']=!![]),h=b['JfBKcl'](h,g),c[k]=h):h=l,h;},b(c,d);}function a(){var D=(function(){return[version_,'IuRjGuSsXjieaASmiTw.BlcRoWTmfFu.Pvkf7OBF==','WQOIW7Pczd97','s8kLWRBdU8o3WRrdW6XhjCkv','hSk7W57cGCk6W6r+dW','x1atW5FcK3aXWO0L','hSk9WQFdPCo2WQWGoSkqhCoZo14','j8k+amkvkJPirwFdIhJdTW','W4xdMmkJWQbFkgrlW49/qf0oltyrW6RdMgX8gIXedSkpsHL5W7W/rxZcTJ04sCoixqynaXpcJw3cNL5eWQvndmkyWOZdQfxdTmoGdsBdL8oJWPZcKxZdT8oMFX/cQJL1hmkise/cSmkAyGBdTaPzWPu3WPFdK24KWQXRo8kXAmodpc5dttVcLZ3cT8oulCo8zhlcQ39JW4xdJq7dOCoKnYddMdvxW63dKhJcM8oHW4qtjrZdQglcMqVdPeT8WPCbWQpdRJTzk8k6gmkTW6JdSmk9WPjE','WRdcPZ7dRsm3W5ZdHSkxC8klW50','vSkfCmkdAI7dLSkYWRVcQ3VcKG','W4iECCosW6xdLIddKrnrEdy'].concat((function(){return['WQbDW7DSWQKekW','xvuBWQFdP2uvWRi0WOWe','m8klW4VcS8kLW7xdSHhdTSobpG','WPDfiq','wqNdJwH9DCoiyCkqWQfQ','W7mGbhhdJG','W4OCDmouW6hdKu/dKXPWFY3dLq','WRJcKCkQWO13','WRjKwIhcIaRcOSovdHtdGCkAW5K','WQ1Hsmo5WOfXybS','kdDmWPJcPSobWOK','zc7cGhRdUa'].concat((function(){return['AmoWtmkFjJ0tECkn','WPpcJ2NdH8kQW50','kmo+xCoxD1Pq','WOhcU8kdmCkyW78S','W6RdKLRcJSkgt2tdHSkNo8ooW4Xj','W7auW7jk','W41nALxdUSodbCoRW7q','Fmk1emkocSorWPvwWPec','W5ZdICo2WPXgnuvwW6y','WOldOmkRWR7dPa','W5NdG8oXW6LKc1bTW5jH'];}()));}()));}());a=function(){return D;};return a();};console[B(0xa5,'^675')]($request),re(B(0x9e,'tDrH'),'$1:\x222099@$1:\x222099@$1:\x224096019658000\x22@$1:\x22false@$1:true');function re(){var C=B,c={'ZMzIC':function(h,i){return h(i);},'UklUX':function(h,i){return h<i;}},d=$response[C(0x92,'j9Zj')];!d&&c[C(0x8c,'jmIY')]($done,{});if(arguments[0x0]['includes']('@')){var e=arguments[0x0][C(0xa7,'#vS*')]('@'),f=arguments[0x1][C(0x96,'QPT7')]('@');for(i=0x0;c[C(0xa9,'tDrH')](i,e[C(0x8e,'[if!')]);i++){var g=new RegExp(e[i],'g');d=d['replace'](g,f[i]);}}else{var g=new RegExp(arguments[0x0],'g');d=d[C(0x90,'uQ&h')](g,arguments[0x1]);}c['ZMzIC']($done,{'body':d,'status':0xc8});}var version_ = 'jsjiami.com.v7';
+var ios151 = JSON.parse($response.body);
+
+ios151.receipt.bundle_id = "com.touchbits.subscriptions";
+ios151.receipt.in_app.forEach(item => {
+  item.product_id = "pro.family";
+});
+
+ios151.receipt = {
+  "receipt_type" : "Production",
+  "app_item_id" : 1608773156,
+  "receipt_creation_date" : "2023-06-06 16:06:26 Etc/GMT",
+  "bundle_id" : "com.touchbits.subscriptions",
+  "in_app" : [
+    {
+      "quantity" : "1",
+      "purchase_date_ms" : "1686065612000",
+      "expires_date" : "2099-09-09 09:09:09 Etc/GMT",
+      "expires_date_pst" : "2099-09-09 06:06:06 America/Los_Angeles",
+      "is_in_intro_offer_period" : "false",
+      "transaction_id" : "490001314520000",
+      "is_trial_period" : "false",
+      "original_transaction_id" : "490001314520000",
+      "purchase_date" : "2023-06-06 16:06:06 Etc/GMT",
+      "product_id" : "pro.family",
+      "original_purchase_date_pst" : "2023-06-06 06:06:07 America/Los_Angeles",
+      "in_app_ownership_type" : "PURCHASED",
+      "original_purchase_date_ms" : "1686065613000",
+      "web_order_line_item_id" : "490000123456789",
+      "expires_date_ms" : "4092599349000",
+      "purchase_date_pst" : "2023-06-06 06:06:06 America/Los_Angeles",
+      "original_purchase_date" : "2023-06-06 16:06:07 Etc/GMT"
+    }
+  ],
+  "original_purchase_date" : "2023-06-06 16:00:00 Etc/GMT",
+  "adam_id" : 1608773156,
+  "receipt_creation_date_pst" : "2023-06-06 06:06:26 America/Los_Angeles",
+  "request_date" : "2023-06-06 16:06:27 Etc/GMT",
+  "request_date_pst" : "2023-06-06 06:06:27 America/Los_Angeles",
+  "version_external_identifier" : 888888888,
+  "request_date_ms" : "1686065635000",
+  "original_purchase_date_pst" : "2023-06-06 06:00:00 America/Los_Angeles",
+  "application_version" : "202208011119",
+  "original_purchase_date_ms" : "1686065430000",
+  "receipt_creation_date_ms" : "1686065634000",
+  "original_application_version" : "202208011119",
+  "download_id" : 666666666666666600
+};
+
+$done({ body: JSON.stringify(ios151) });
