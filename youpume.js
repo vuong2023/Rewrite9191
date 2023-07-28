@@ -4,7 +4,7 @@
 下载地址：https://t.cn/A60Vxtkh
 项目作者：@ios151
 电报频道：https://t.me/chxm1023
-使用说明：清除缓存再开脚本
+使用说明：清除缓存(卸载重下)再开脚本
 
 
 [rewrite_local]
