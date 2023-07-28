@@ -14,12 +14,13 @@
 hostname = pan.baidu.com
 
 */
-
 let body = $response.body;
 
 if ($request.url.includes("youai/membership/v1/adswitch")) {
+    // 修改响应体的规则1
     body = body.replace(/"switch":".*?"/g, "\"switch\":\"close\"");
-} else if ($request.url.includes("user/v1/getminfo")) {
+} else if ($request.url.includes("youai/user/v1/getminfo")) {
+    // 修改响应体的规则2
     body = JSON.stringify({
         "errno": 0,
         "request_id": 342581654394297772,
@@ -56,7 +57,7 @@ if ($request.url.includes("youai/membership/v1/adswitch")) {
         "expire_time": 0
     });
 } else {
-    body = body.replace(/"some_key":".*?"/g, "\"some_key\":\"some_value\"");
 }
 
 $done({ body });
+
