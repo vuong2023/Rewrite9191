@@ -4,7 +4,7 @@
 脚本作者：@ios151原@chxm1023
 使用说明：即开即用
 免责声明：仅供参考,严禁售卖
-
+特别提醒：同时解锁百度网盘svip
 [rewrite_local]
 ^https?:\/\/pan\.baidu\.com\/(youai\/(user\/.+\/getminfo|membership\/.+\/adswitch)|(rest\/.+\/membership\/user|act\/.+\/(bchannel|welfare)\/list|api\/usercfg)) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yikexiangce.js
 
