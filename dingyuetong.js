@@ -20,7 +20,7 @@ var ios151 = JSON.parse($response.body);
 
 ios151.receipt.bundle_id = "com.touchbits.subscriptions";
 ios151.receipt.in_app.forEach(item => {
-  item.product_id = "pro.family";
+  item.product_id = "com.touchbits.subscriptions.iap.pro.yearly";
 });
 
 ios151.receipt = {
