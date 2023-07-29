@@ -2,13 +2,13 @@
 
 项目名称：订阅通
 下载地址：商店
-脚本作者：@ios151感谢越南佬
+脚本作者：@ios151本人付费token
 使用声明：仅供参考，禁止转载与售卖！
 
 
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/dingyuetong.js
+ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/dingyuetong.js
 
 
 [mitm]
