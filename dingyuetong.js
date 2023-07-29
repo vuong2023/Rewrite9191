@@ -4,7 +4,7 @@
 下载地址：商店
 脚本作者：@ios151本人付费token
 使用声明：仅供参考，禁止转载与售卖！
-
+Surprise：Js为加密
 
 
 [rewrite_local]
