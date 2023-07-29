@@ -39,7 +39,7 @@ ios151.receipt = {
       "is_trial_period" : "false",
       "original_transaction_id" : "490001314520000",
       "purchase_date" : "2023-06-06 16:06:06 Etc/GMT",
-      "product_id" : "pro.family",
+      "product_id" : "com.touchbits.subscriptions.iap.pro.yearly",
       "original_purchase_date_pst" : "2023-06-06 06:06:07 America/Los_Angeles",
       "in_app_ownership_type" : "PURCHASED",
       "original_purchase_date_ms" : "1686065613000",
