@@ -16,52 +16,26 @@ hostname = buy.itunes.apple.com
 
 */
 
-var ios151 = JSON.parse($response.body);
-
-ios151.receipt.bundle_id = "com.touchbits.subscriptions";
-ios151.receipt.in_app.forEach(item => {
-  item.product_id = "com.touchbits.subscriptions.iap.pro.yearly";
-});
-
-ios151.receipt = {
-  "receipt_type" : "Production",
-  "app_item_id" : 1608773156,
-  "receipt_creation_date" : "2023-06-06 16:06:26 Etc/GMT",
-  "bundle_id" : "com.touchbits.subscriptions",
-  "in_app" : [
-    {
-      "quantity" : "1",
-      "purchase_date_ms" : "1686065612000",
-      "expires_date" : "2099-09-09 09:09:09 Etc/GMT",
-      "expires_date_pst" : "2099-09-09 06:06:06 America/Los_Angeles",
-      "is_in_intro_offer_period" : "false",
-      "transaction_id" : "490001314520000",
-      "is_trial_period" : "false",
-      "original_transaction_id" : "490001314520000",
-      "purchase_date" : "2023-06-06 16:06:06 Etc/GMT",
-      "product_id" : "com.touchbits.subscriptions.iap.pro.yearly",
-      "original_purchase_date_pst" : "2023-06-06 06:06:07 America/Los_Angeles",
-      "in_app_ownership_type" : "PURCHASED",
-      "original_purchase_date_ms" : "1686065613000",
-      "web_order_line_item_id" : "490000123456789",
-      "expires_date_ms" : "4092599349000",
-      "purchase_date_pst" : "2023-06-06 06:06:06 America/Los_Angeles",
-      "original_purchase_date" : "2023-06-06 16:06:07 Etc/GMT"
-    }
-  ],
-  "original_purchase_date" : "2023-06-06 16:00:00 Etc/GMT",
-  "adam_id" : 1608773156,
-  "receipt_creation_date_pst" : "2023-06-06 06:06:26 America/Los_Angeles",
-  "request_date" : "2023-06-06 16:06:27 Etc/GMT",
-  "request_date_pst" : "2023-06-06 06:06:27 America/Los_Angeles",
-  "version_external_identifier" : 888888888,
-  "request_date_ms" : "1686065635000",
-  "original_purchase_date_pst" : "2023-06-06 06:00:00 America/Los_Angeles",
-  "application_version" : "202208011119",
-  "original_purchase_date_ms" : "1686065430000",
-  "receipt_creation_date_ms" : "1686065634000",
-  "original_application_version" : "202208011119",
-  "download_id" : 666666666666666600
+var ios151 = {
+  "receipt": {
+    "receipt_type": "Production",
+    "bundle_id": "com.touchbits.subscriptions",
+    "in_app": [
+      {
+        "quantity": "1",
+        "purchase_date_ms": "1669275526000",
+        "transaction_id": "300001282466542",
+        "original_transaction_id": "300001282466542",
+        "product_id": "com.touchbits.subscriptions.iap.pro.yearly",
+        "in_app_ownership_type": "PURCHASED",
+        "original_purchase_date_ms": "1669275526000"
+      }
+    ],
+    "application_version": "3206",
+    "original_purchase_date_ms": "1669275302000",
+    "original_application_version": "3206",
+  },
+  "environment": "Production",
+  "status": 0,
 };
-
 $done({ body: JSON.stringify(ios151) });
