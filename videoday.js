@@ -26,16 +26,17 @@ lovebaby = {
     {
       "quantity": "1",
       "purchase_date_ms": "1688386973000",
-      "expires_date": "6666-06-06 06:06:06 Etc\/GMT",
-      "expires_date_pst": "6666-06-06 06:06:06 America\/Los_Angeles",
+      "expires_date": "52013-04-14 00:00:00 Etc\/GMT",
+      "expires_date_pst": "52013-04-14 00:00:00 America\/Los_Angeles",
       "is_in_intro_offer_period": "false",
       "transaction_id": "540001260447637",
       "is_trial_period": "false",
       "original_transaction_id": "540001260447637",
       "product_id": "me.imgbase.videoday.profeaturesYearly",
       "original_purchase_date_ms": "1688386974000",
-      "expires_date_ms": "148204937166000"
+      "expires_date_ms": "1931136000000"
     }
   ]
 };
 $done({ body: JSON.stringify(lovebaby) });
+
