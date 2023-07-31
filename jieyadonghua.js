@@ -15,20 +15,52 @@ hostname = api.revenuecat.com
 
 
 */
-var lovebaby = JSON.parse($response.body);
+var baby = JSON.parse($response.body);
 
-lovebaby.subscriber.subscriptions["Drowsy_Life"] = {
-  "purchase_date": "2022-09-09T09:09:09Z",
-  "original_purchase_date": "2022-09-09T09:09:09Z",
-  "ownership_type": "PURCHASED"
+baby = {
+  "request_date_ms" : 1690815501842,
+  "request_date" : "2023-07-31T14:58:21Z",
+  "subscriber" : {
+    "non_subscriptions" : {
+
+    },
+    "first_seen" : "2023-07-31T14:42:21Z",
+    "original_application_version" : "14",
+    "entitlement" : {
+
+    },
+    "other_purchases" : {
+
+    },
+    "management_url" : null,
+    "subscriptions" : {
+      "Drowsy_Life" : {
+        "Author" : "ios151",
+        "store" : "app_store",
+        "period_type" : "trial",
+        "ownership_type" : "PURCHASED",
+        "warning" : "仅供学习，禁止转载或售卖",
+        "original_purchase_date" : "2022-09-09T09:09:09Z",
+        "Telegram" : "https://t.me/ios151",
+        "purchase_date" : "2022-09-09T09:09:09Z"
+      }
+    },
+    "entitlements" : {
+      "Pro" : {
+        "Telegram" : "https://t.me/ios151",
+        "warning" : "仅供学习，禁止转载或售卖",
+        "purchase_date" : "2022-09-09T09:09:09Z",
+        "product_identifier" : "Drowsy_Life",
+        "Author" : "ios151"
+      }
+    },
+    "original_purchase_date" : "2023-07-31T14:40:42Z",
+    "original_app_user_id" : "$RCAnonymousID:d7d0a422011b4ea49557cf9ae5e26a43",
+    "last_seen" : "2023-07-31T14:58:11Z"
+  }
 };
 
-lovebaby.subscriber.entitlements["Pro"] = {
-  "ownership_type": "PURCHASED",
-  "product_identifier": "Drowsy_Life",
-  "original_purchase_date": "2022-09-09T09:09:09Z",
-  "purchase_date": "2022-09-09T09:09:09Z"
-};
+$done({ body: JSON.stringify(baby) });
 
-$done({ body: JSON.stringify(lovebaby) });
+
 
