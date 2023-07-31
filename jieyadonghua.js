@@ -7,60 +7,50 @@
 
 
 [rewrite_local]
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(.*?)*$) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/jieyadonghua.js
-
+^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/jieyadonghua.js
+^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/jieyadonghua.js
 
 [MITM]
 hostname = api.revenuecat.com
 
 
 */
-var baby = JSON.parse($response.body);
+const baby = {};
+const lovebaby = JSON.parse(typeof $response != "undefined" && $response.body || null);
+const name = "Pro"; //解锁
+const love = "Drowsy_Life";
 
-baby = {
-  "request_date_ms" : 1690815501842,
-  "request_date" : "2023-07-31T14:58:21Z",
-  "subscriber" : {
-    "non_subscriptions" : {
+if (typeof $response == "undefined") {
+  delete $request.headers["x-revenuecat-etag"];
+  delete $request.headers["X-RevenueCat-ETag"];
+  baby.headers = $request.headers;
+} else if (lovebaby && lovebaby.subscriber) {
+  data = {
+    "Author": "baby",
+    "Telegram": "https://t.me/chxm1023",
+    "warning": "仅供学习，禁止转载或售卖",
+    "expires_date": "2099-09-09T09:09:09Z",
+    "purchase_date": "2022-09-09T09:09:09Z"
+  };
+  lovebaby.subscriber.subscriptions[(love)] = {
+    "Author": "baby",
+    "Telegram": "https://t.me/chxm1023",
+    "warning": "仅供学习，禁止转载或售卖",
+    "original_purchase_date": "2022-09-09T09:09:09Z",
+    "period_type": "trial",
+    "purchase_date": "2022-09-09T09:09:09Z",
+    "expires_date": "2099-09-09T09:09:09Z",
+    "store": "app_store",
+    "ownership_type": "PURCHASED"
+  };
+  lovebaby.subscriber.entitlements[(name)] = JSON.parse(JSON.stringify(data));
+  lovebaby.subscriber.entitlements[(name)].product_identifier = (love);
+  baby.body = JSON.stringify(lovebaby);
+}
 
-    },
-    "first_seen" : "2023-07-31T14:42:21Z",
-    "original_application_version" : "14",
-    "entitlement" : {
+$done(baby);
 
-    },
-    "other_purchases" : {
 
-    },
-    "management_url" : null,
-    "subscriptions" : {
-      "Drowsy_Life" : {
-        "Author" : "ios151",
-        "store" : "app_store",
-        "period_type" : "trial",
-        "ownership_type" : "PURCHASED",
-        "warning" : "仅供学习，禁止转载或售卖",
-        "original_purchase_date" : "2022-09-09T09:09:09Z",
-        "Telegram" : "https://t.me/ios151",
-        "purchase_date" : "2022-09-09T09:09:09Z"
-      }
-    },
-    "entitlements" : {
-      "Pro" : {
-        "Telegram" : "https://t.me/ios151",
-        "warning" : "仅供学习，禁止转载或售卖",
-        "purchase_date" : "2022-09-09T09:09:09Z",
-        "product_identifier" : "Drowsy_Life",
-        "Author" : "ios151"
-      }
-    },
-    "original_purchase_date" : "2023-07-31T14:40:42Z",
-    "original_app_user_id" : "$RCAnonymousID:d7d0a422011b4ea49557cf9ae5e26a43",
-    "last_seen" : "2023-07-31T14:58:11Z"
-  }
-};
-
-$done({ body: JSON.stringify(baby) });
 
 
 
