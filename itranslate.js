@@ -16,7 +16,6 @@
 hostname = ssl-api.itranslateapp.com
 
 */
-
 var lovebaby = JSON.parse($response.body);
 const vip = '/subscriptions/verify';
 const active = '/marketing/consent/status';
@@ -24,7 +23,7 @@ const active = '/marketing/consent/status';
 if ($request.url.indexOf(vip) != -1){
   lovebaby.licenses = [
     {
-      "product_id" : "com.itranslate.pro.69_99.yearly.7dtrial.groupe",
+      "product_id" : "com.itranslate.pro.yearly",
       "bundle_id" : "com.outerspaceapps.itranslate",
       "is_trial_period" : true,
       "original_transaction_id" : "160001314520000",
@@ -39,3 +38,6 @@ if ($request.url.indexOf(active) != -1){
   "is_active" : true
   };
 }
+
+$done({ body: JSON.stringify(lovebaby) });
+
