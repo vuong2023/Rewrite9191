@@ -1,5 +1,6 @@
 /*
 脚本功能：解锁螃蟹
+Thanks@PayNe@onz3v
 
 [rewrite_local]
 ^http[s]?:\/\/api\.x-storm\.com(:\d{2,5})?\/app/.+$ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/ssHeader.js
