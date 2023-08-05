@@ -3,8 +3,8 @@
 time:2023.8.6.2.00.
 
 [rewrite_local]
-^https://example\.com/app/.* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzsnb.txt
-^https://example\.com/app/.* url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzsnb.txt
+^https://example\.com/app/.* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzsnb.js
+^https://example\.com/app/.* url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzsnb.js
 
 [mitm]
 hostname = newdrugs.dxy.cn
