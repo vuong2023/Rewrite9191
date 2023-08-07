@@ -27,8 +27,11 @@
 # 首页左上角福利中心
 ^https:\/\/dict\.youdao\.com\/dictusertask\/system url reject-dict
 
+# 会员界面横幅广告
+^https:\/\/dictvip-business\.youdao\.com\/home\/ad url reject-dict
+
 [mitm]
-hostname = dict.youdao.com,api-overmind.youdao.com,cdke.youdao.com
+hostname = dict.youdao.com,api-overmind.youdao.com,cdke.youdao.com,business.youdao.com
 
 */
 
