@@ -31,7 +31,8 @@
 ^https:\/\/dictvip-business\.youdao\.com\/home\/ad url reject-dict
 
 [mitm]
-hostname = .youdao.com
+hostname = dict.youdao.com, business.youdao.com, api-overmind.youdao.com, cdke.youdao.com
+
 
 */
 
