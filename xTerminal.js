@@ -1,6 +1,8 @@
 /* 
-软件：‎xTerminal
-下载：https://apps.apple.com/cn/app/xterminal-ssh-terminal-shell/id1544728400
+1软件：‎xTerminal
+2软件：色采
+1下载：https://apps.apple.com/cn/app/xterminal-ssh-terminal-shell/id1544728400
+2下载：https://apps.apple.com/app/id1439521846
 功能：解锁pro
 
 
