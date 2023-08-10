@@ -3,7 +3,7 @@
 You：APTV
 love：store
 me：@ios151
-Ts：I stole this script
+Ts：仅供学习，请勿转载售卖
 
 
 
