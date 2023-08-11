@@ -15,7 +15,7 @@
 #去除首页下方广告
 ^https:\/\/oxadmin\.cp\.com\.cn\/api\/advertise\/banner url reject-dict
 
-oxadmin.cp.com.cn
+
 [mitm]
 hostname = oxfordx.cp.com.cn
 
