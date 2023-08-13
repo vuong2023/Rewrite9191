@@ -3,10 +3,12 @@
 脚本作者：@ios151 感谢@Anni提供ck
 特别说明：<临床指南→指南专题>没有解锁.如需解锁完整版单独使用yyzsck.js版
 免责声明：仅供学习 请勿传播
-更新时间: 2023.8.6.2.00.
+更新时间: 2023.8.13.19.00.
 
 [rewrite_local]
+#纯会员数据共享
 ^https://newdrugs.dxy.cn url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzsck.js
+#修改个人用户信息
 ^https://newdrugs.dxy.cn url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzs2.js
 
 [mitm]
