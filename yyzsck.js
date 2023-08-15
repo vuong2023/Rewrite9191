@@ -11,7 +11,7 @@
 #修改个人用户信息
 ^https://newdrugs.dxy.cn url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzs2.js
 #pdf获取
-^https:\/\/file1\.dxycdn\.com\/ script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/pdf-url.js
+^https:\/\/file1\.dxycdn\.com\/ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/pdf-url.js
 
 [mitm]
 hostname = newdrugs.dxy.cn, file1.dxycdn.com
