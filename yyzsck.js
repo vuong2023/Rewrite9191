@@ -10,8 +10,8 @@
 ^https://newdrugs.dxy.cn url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzsck.js
 #修改个人用户信息
 ^https://newdrugs.dxy.cn url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzs2.js
-#pdf获取
-^https:\/\/file1\.dxycdn\.com\/ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/pdf-url.js
+#pdf获取 测试远程不行 放本地用吧
+#^https:\/\/file1\.dxycdn\.com\/ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/pdf-url.js
 
 [mitm]
 hostname = newdrugs.dxy.cn, file1.dxycdn.com
