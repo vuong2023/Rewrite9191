@@ -34,7 +34,7 @@ const newHeaders = {
   'User-Agent': 'drugspro/13.14 (cn.dxy.drugspro; build:1282; iOS 15.1.1) Alamofire/5.6.4',
   'Connection': 'keep-alive',
   'app-ac': '4124c5f1-1029-4fda-b06f-a87ac5ad8d9f',
-  'DXY-AUTH-TOKEN': 'TGT-40126-NFqwmCRuAhwwDAHU6kRnk5B2vcsofpPFZbp-50',
+  'DXY-AUTH-TOKEN': 'TGT-68706-CxFnpAv4zevsePELF7cHlpJvagahzT32ZZV-50',
   'app-os-version': '15.1.1'
 };
 
