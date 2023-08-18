@@ -26,9 +26,6 @@ var originalData = {
 originalData.data.isVIP = true;
 originalData.code = 0;
 
-var modifiedData = JSON.stringify(originalData)
-;
+var modifiedData = JSON.stringify(originalData);
 
-$done({
-  body: modifiedData
-});
+$done({ body: modifiedData });
