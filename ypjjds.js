@@ -14,9 +14,12 @@ hostname = www.tingniukeji.com
 
 
 *************************************/
-var body = JSON.parse($response.body);
+var response = {
+  "msg": "获取ios用户信息",
+  "data": {
+    "isVIP": true
+  },
+  "code": 0
+};
 
-body.data.isVIP = true;
-body.code = 0;
-
-$done({ body: JSON.stringify(body) });
+$done({ body: JSON.stringify(response) });
