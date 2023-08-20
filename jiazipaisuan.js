@@ -14,7 +14,7 @@
 
 [mitm] 
 
-hostname = api.revenuecat.com
+hostname = app.iyzbz.com
 
 *******************************/
 
