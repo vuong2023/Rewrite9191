@@ -1,6 +1,6 @@
 /******************************
 
-脚本名称: 甲子排算
+脚本名称: 甲子排盘
 脚本作者：ios151
 更新时间：2023年8月20日 22:37
 问题反馈：TG
@@ -18,13 +18,13 @@ hostname = app.iyzbz.com
 
 *******************************/
 
+
 var objc = JSON.parse($response.body);
 
     objc = {
   "message": "ok",
   "data": {
-    "memberLevel":
-2999-08-20T20:06:41.000+08:00,
+    "memberLevel": 1,
     "registerChannel": "AppStore",
     "inviteCodeSelf": "1",
     "memberLevelName": null,
@@ -39,11 +39,11 @@ var objc = JSON.parse($response.body);
     "inviteLink": "https:\/\/web.iyzbz.com\/invite\/",
     "birthPlaceName": null,
     "uid": "2023082020064048196116c",
-    "userName": "ViLGEKU63sb497v",
+    "userName": "牛马",
     "enableBeInvited": true,
     "weChatName": null,
     "createTime": "2023-08-20T20:06:41.000+08:00",
-    "expireTime": 9999
+    "expireTime": null
   },
   "code": 200
 }
