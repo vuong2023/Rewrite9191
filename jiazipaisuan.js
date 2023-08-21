@@ -10,7 +10,7 @@
 
 [rewrite_local]
 
-^https:\/\/app.iyzbz.com\/app\/user\/selfinfo url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/jiazipaisuan.js
+^https:\/\/app.iyzbz.com\/app\/user\/selfinfo url script-echo-response https://raw.githubusercontent.com/Yu9191/Rewrite/main/jiazipaisuan.js
 
 [mitm] 
 
